@@ -1,0 +1,199 @@
+$main-color: #f7f7f7; // #dcdfe3;
+$main-color-1: #b4b6b9;
+$main-color-2: #8d8f91;
+$main-color-3: #68696b;
+$main-color-4: #454647;
+$main-color-5: #252526;
+$main-color-6: #000;
+$sub-color: #336699; // 666699
+$color-ccc: #ccc;
+$grey3: #333;
+$grey5: #555;
+$grey6: #666;
+$grey7: #777;
+$grey8: #888;
+$grey9: #999;
+
+$smoke: #f5f5f5;
+
+$test-color: #68696b;
+
+// font size
+$text10: 10px;
+$text11: 11px;
+$text12: 12px;
+$text13: 13px;
+$text14: 14px;
+$text15: 15px;
+$text16: 16px;
+$text17: 17px;
+$text18: 18px;
+$text19: 19px;
+$text20: 20px;
+$text25: 25px;
+$text30: 30px;
+$text33: 33px;
+$text35: 35px;
+$text38: 38px;
+$text40: 40px;
+$text43: 43px;
+$text45: 45px;
+$text50: 50px;
+$text55: 55px;
+$text60: 60px;
+
+// $text10: 0.926vw;
+// $text11: 1.019vw;
+// $text12: 1.111vw;
+// $text13: 1.204vw;
+// $text14: 1.296vw;
+// $text15: 1.389vw;
+// $text16: 1.481vw;
+// $text17: 1.574vw;
+// $text18: 1.667vw;
+// $text19: 1.759vw;
+// $text20: 1.852vw;
+// $text25: 2.315vw;
+// $text30: 2.778vw;
+// $text33: 3.056vw;
+// $text35: 3.241vw;
+// $text38: 3.519vw;
+// $text40: 3.704vw;
+// $text43: 3.981vw;
+// $text45: 4.167vw;
+// $text50: 4.63vw;
+// $text55: 5.093vw;
+// $text60: 5.556vw;
+
+// $text10-vw: 0.926vw;
+// $text11-vw: 1.019vw;
+// $text12-vw: 1.111vw;
+// $text13-vw: 1.204vw;
+// $text14-vw: 1.296vw;
+// $text15-vw: 1.389vw;
+// $text16-vw: 1.481vw;
+// $text17-vw: 1.574vw;
+// $text18-vw: 1.667vw;
+// $text19-vw: 1.759vw;
+// $text20-vw: 1.852vw;
+// $text25-vw: 2.315vw;
+// $text30-vw: 2.778vw;
+// $text33-vw: 3.056vw;
+// $text35-vw: 3.241vw;
+// $text38-vw: 3.519vw;
+// $text40-vw: 3.704vw;
+// $text43-vw: 3.981vw;
+// $text45-vw: 4.167vw;
+// $text50-vw: 4.63vw;
+// $text55-vw: 5.093vw;
+// $text60-vw: 5.556vw;
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pagi-wrapper {
+  margin: 3vw 0;
+  text-align: right;
+  .pagi {
+    margin: 0 10vw;
+
+    .el-pagination__total {
+      margin-left: 10px;
+      line-height: 32px;
+    }
+
+    li {
+      color: $grey6 !important;
+    }
+
+    li.active {
+      color: $main-color !important;
+      background-color: $sub-color !important;
+
+      &:hover {
+        color: $main-color !important;
+      }
+    }
+
+    li:hover {
+      color: $sub-color !important;
+    }
+
+    .el-input__inner {
+      &:focus,
+      &:hover {
+        border-color: $sub-color;
+      }
+    }
+  }
+}
+
+.el-link {
+  color: $sub-color !important;
+
+  &::after {
+    color: $sub-color !important;
+    background-color: $sub-color !important;
+    border-bottom-color: $sub-color !important;
+  }
+}
+
+.banner {
+  width: 100%;
+  // height: 30vw; // 1920 / 4 = 480
+  overflow: initial;
+}
+
+.el-carousel {
+  .el-carousel__container {
+    .el-carousel__arrow {
+      width: 2vw;
+      height: 2vw;
+      color: black !important;
+      background-color: white !important;
+
+      i {
+        font-size: $text15;
+      }
+    }
+  }
+
+  .el-carousel__indicators {
+    background-color: white;
+  }
+}
+
+.el-button {
+  &:hover {
+    color: $sub-color;
+    border-color: $sub-color;
+  }
+}
+
+.el-tabs__nav {
+  .el-tabs__item {
+    color: $grey6;
+    font-size: $text12;
+
+    &:hover {
+      color: $sub-color;
+    }
+
+    &.is-active {
+      color: $sub-color;
+    }
+  }
+  .el-tabs__active-bar {
+    background-color: $sub-color;
+  }
+}
