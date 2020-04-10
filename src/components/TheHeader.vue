@@ -14,6 +14,7 @@
       <div class="header-blank" />
       <nav class="tabs">
         <a :class="this.$route.path === '/' ? 'tab-active': 'tab'" href="/">首页</a>
+        <a :class="this.$route.path === '/parser' ? 'tab-active': 'tab'" href="/parser">文本格式化</a>
         <!-- <a :class="this.$route.path.includes('/about') ? 'tab-active': 'tab'" href="/about">关于</a> -->
       </nav>
     </div>
@@ -32,7 +33,7 @@ export default class Header extends Vue {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import "../share.scss";
-$head-info-height: 2vw;
+$head-info-height: 2em;
 $head-content-height: 5vw;
 
 .header {

@@ -1,29 +1,23 @@
 <template>
-  <div id="home" class="home">
-    <div class="main-content">
-      home
-    </div>
+  <div id="home" class="container">
+    <div class="main-content">home</div>
   </div>
 </template>
 
 <script>
-import axios from "axios";
+import axios from 'axios';
 
 export default {
-  name: "home",
+  name: 'home',
   components: {},
   data() {
-    return {
-    };
+    return {};
   },
-  filters: {
-  },
-  methods: {
-  },
-  mounted() {
- }
+  filters: {},
+  methods: {},
+  // mounted() {},
 };
 </script>
 <style lang="scss" scoped>
-  @import './index.scss';
+@import "./index.scss";
 </style>

@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '@/views/home/index.vue';
-import Text from '@/views/text/index.vue';
+import Parser from '@/views/parser/index.vue';
 import NotFoundPage from '@/views/NotFoundPage.vue';
 
 Vue.use(VueRouter);
@@ -13,9 +13,9 @@ const routes = [
     component: Home,
   },
   {
-    path: '/',
-    name: 'text',
-    component: Text,
+    path: '/parser',
+    name: 'parser',
+    component: Parser,
   },
   {
     path: '/404',

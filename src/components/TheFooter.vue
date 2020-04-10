@@ -7,7 +7,7 @@
       </div>
       <span>|</span>
       <div class="route">
-        <el-link href="/">首页</el-link>
+        <el-link href="/parser">文本格式化</el-link>
       </div>
     </div>
     <div class="main-content">

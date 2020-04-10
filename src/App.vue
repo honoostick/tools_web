@@ -17,7 +17,7 @@ import "./share.scss";
 @Component({
   components: {
     "m-header": mHeader,
-    "m-footer": mFooter
+    "m-footer": mFooter,
   },
   mounted() {
     const body = document.querySelector("body");
